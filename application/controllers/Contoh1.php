@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    tes doank
-    <h1>latihan pertama dengan git,github</h1>
-</body>
-</html>
+<?php
+class Contoh1 extends CI_Controller
+{
+    public function index()
+    {
+        echo "<h1>Perkenalkan</h1>";
+        echo "Nama saya Imam Nawawi
+            Saya tingga di daerah Ciputat
+            olah raga yang saya sukai adalah
+            Bulutangkis";
+    }
+}
